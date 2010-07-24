@@ -43,9 +43,5 @@ function wikify($post_id, $html_id = '', $keywords = '', $lang = '', $variant = 
 
   return $return;
 }
-
-function Wikify($post_id, $html_id = '', $keywords = '', $lang = '', $variant = '') {
-  echo wikify($post_id, $html_id, $keywords, $lang, $variant);
-}
 ?>
 
